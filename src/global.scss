@@ -1,0 +1,69 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* Swiper Angular */
+@import '~swiper/scss';
+@import '~swiper/scss/autoplay';
+@import '~swiper/scss/keyboard';
+@import '~swiper/scss/pagination';
+@import '~swiper/scss/scrollbar';
+@import '~swiper/scss/zoom';
+@import '~@ionic/angular/css/ionic-swiper';
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url('./assets/fonts/NotoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: "NotoSans-Italic";
+  src: url('./assets/fonts/NotoSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: url('./assets/fonts/NotoSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url('./assets/fonts/NotoSans-Regular.ttf');
+}
+
+ion-toolbar ion-title {
+  font-family: 'NotoSans-Bold' !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.booking h2, ion-text {
+  font-weight: bold;
+}

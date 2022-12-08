@@ -1,0 +1,101 @@
+<ion-content color="primary">
+  <!-- Slides -->
+  <ion-slides [options]="sliderOptions">
+    <!-- Slide 1 -->
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../assets/svg/onboarding_slide_01.svg" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h2>Willkommen</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-text>
+              Herzlich Willkommen bei Bookify! Schön, dass Du zu uns gefunden hast.
+              Zunächst bekommst Du einen kleinen Einblick.
+            </ion-text>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <!-- Slide 2 -->
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../assets/svg/onboarding_slide_02.svg" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h2>Überblick</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-text>
+              Behalte Deine Termine im Überblick. Du erhälst eine Übersicht über Deine gebuchten Termine.
+              Dazu besteht die Möglichkeit, automatisch einen Eintrag in Deinem Telefon Kalender zu erstellen.
+            </ion-text>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <!-- Slide 3 -->
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../assets/svg/onboarding_slide_03.svg" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h2>Dienstleister</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-text>
+              Du hast gute Erfahrungen mit einem Dienstleister gemacht? Dann wähle
+              diese gefiltert nach Dienstleistungen aus.
+            </ion-text>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <!-- Slide 4 -->
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../assets/svg/onboarding_slide_04.svg" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h2>Freie Termine?</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-text>
+              Du erhälst sofort eine Übersicht, ob Dein Dienstleister zu
+              Deinem gewünschten Termin noch frei ist!
+            </ion-text>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+
+<ion-footer color="primary">
+  <ion-button fill="clear" (click)="skip()">Überspringen</ion-button>
+</ion-footer>
